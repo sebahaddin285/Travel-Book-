@@ -12,6 +12,6 @@ data class TravelBook(
     @ColumnInfo(name = "id") @NotNull val id : Int,
     @ColumnInfo(name = "title") @NotNull val title : String,
     @ColumnInfo(name = "date") @NotNull val date : String,
-    @ColumnInfo(name = "images") @NotNull val images : List<Bitmap>,
+    @ColumnInfo(name = "images") @NotNull val images : Bitmap,
 
 )
