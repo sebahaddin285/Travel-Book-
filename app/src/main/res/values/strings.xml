@@ -1,5 +1,23 @@
 <resources>
     <string name="app_name">Travel Book</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="baslik">Başlık</string>
+    <string name="tarih">Tarih</string>
+    <string name="koyu_tema">Koyu Tema</string>
+    <string name="genel">Genel</string>
+    <string name="hakkimda">Hakkında</string>
+    <string name="version">Versiyon</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="silmeislem">Silme İşlemi</string>
+    <string name="silmeemin">Silmek istediğinize emin misiniz?</string>
+    <string name="islembasari">İşlem Başarılı</string>
+    <string name="sil">Sil</string>
+    <string name="iptal">İptal</string>
+    <string name="tarihsec">Tarih Seçiniz</string>
+    <string name="ayar">ayarla</string>
+    <string name="bosbirak">Boş Bırakılan Alanlar Var</string>
+    <string name="dil">Dil</string>
+    <string name="ayarlar">Ayarlar</string>
+
+
 </resources>

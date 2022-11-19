@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Travel Book</string>
+    <string name="baslik">Header</string>
+    <string name="tarih">Date</string>
+    <string name="koyu_tema">Dark Mode</string>
+
+    <string name="genel">General</string>
+    <string name="hakkimda">About</string>
+    <string name="version">Version</string>
+    <string name="kaydet">Save</string>
+
+    <string name="silmeislem">Deletion Process</string>
+    <string name="silmeemin">Are you sure you want to delete?</string>
+    <string name="islembasari">Transaction Successful</string>
+    <string name="sil">Delete</string>
+    <string name="iptal">Cancel</string>
+
+    <string name="tarihsec">Select Date</string>
+    <string name="ayar">Set</string>
+    <string name="bosbirak">There Are Fields Left Blank</string>
+    <string name="dil">Language</string>
+    <string name="ayarlar">Setting</string>
+</resources>

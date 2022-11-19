@@ -10,8 +10,13 @@
         <item name="colorSecondaryVariant">@color/color_blue</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/color_blue</item>
         <!-- Customize your theme here. -->
         <item name="floatingActionButtonStyle">@color/color_blue</item>
+        <item name="android:textColor">@color/purple_200</item>
     </style>
+
+
+
+
 </resources>

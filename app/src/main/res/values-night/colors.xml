@@ -8,6 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="color_blue">#0091EA</color>
-    <color name="status_color">#FBFBFB</color>
-    <color name="design_text_color">#2446A5</color>
+    <color name="status_color">#221F1F</color>
+    <color name="design_text_color">#FFFFFF</color>
 </resources>

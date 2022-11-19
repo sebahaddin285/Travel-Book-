@@ -7,16 +7,32 @@
 
     <fragment
         android:id="@+id/homePageFragment"
-        android:name="com.marangoz.travelbook.ui.HomePageFragment"
+        android:name="com.marangoz.travelbook.ui.homepage.HomePageFragment"
         android:label="HomePageFragment"
         tools:layout = "@layout/fragment_home_page">
         <action
             android:id="@+id/passToSaveFragment"
-            app:destination="@id/saveFragment" />
+            app:destination="@id/saveFragment"
+            app:popUpTo="@id/saveFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_homePageFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
     </fragment>
     <fragment
         android:id="@+id/saveFragment"
-        android:name="com.marangoz.travelbook.ui.SaveFragment"
+        android:name="com.marangoz.travelbook.ui.savepage.SaveFragment"
         android:label="SaveFragment"
-        tools:layout = "@layout/fragment_save"/>
+        tools:layout = "@layout/fragment_save">
+        <action
+            android:id="@+id/passToHomePage"
+            app:destination="@id/homePageFragment"
+            app:popUpTo="@id/homePageFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.marangoz.travelbook.ui.about.AboutFragment"
+        android:label="AboutFragment"
+        tools:layout = "@layout/fragment_about"/>
 </navigation>
